@@ -50,3 +50,8 @@ app.get('/about', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running! ${port}`);
 })
+
+
+app.get('/afd', function(req, res){
+  console.log('sere');
+});
